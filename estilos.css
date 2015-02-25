@@ -1,0 +1,79 @@
+*{
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+body,html{
+	background: black;
+	font-family: Helvetica;
+}
+div#content{
+	background: gray;
+	margin:  0 auto 0;
+	margin-top: 20px;
+	padding: 10px;
+	width: 198px;
+	box-shadow: 5px 5px 5px #FFF;
+}
+div#content>div{
+	/*border: 1px solid black;*/
+	margin: 1px;
+	padding: 1px;
+}
+div#result>input{
+	display: block;
+	margin: 0;
+	padding: 2px;
+	text-align: right;
+	width: 96%;
+}
+div#numbers,div#oper1,div#oper2{
+	display: inline-block;
+}
+div#oper3{
+	display:block;
+}
+
+div#numbers>div>button{
+	vertical-align: bottom;
+	height: 30px;
+	font-size:15px;
+	margin: 1px;
+	padding: 1px;
+	width: 30px;
+}
+
+div#oper1>div>button{
+	vertical-align: bottom;
+	height: 30px;
+	font-size: 15px;
+	margin: 1px;
+	padding: 1px;
+	width: 30px;
+}
+div#oper2>div>button{
+	vertical-align: bottom;
+	height: 30px;
+	font-size: 15px;
+	margin: 1px;
+	padding: 1px;
+	width: 30px;
+}
+div#oper3>div>button{
+	height: 30px;
+	font-size: 15px;
+	margin: 1px;
+	padding: 1px;
+	width: 59px;
+}
+
+.saltoLinea{
+	display: block;
+}
+.botonDobleAlto{
+	height: 63px !important;
+}
+.botonDobleAncho{
+	width: 66px
+	!important;
+}
