@@ -58,7 +58,7 @@ function raiz(n1){
 }
 
 function cuadrado(n1){
-	multiplicar(n1,n1);
+	ultimoNumero = n1*n1;
 }
 function senX(n1){
 	ultimoNumero = Math.sin(n1);
@@ -80,7 +80,7 @@ function igual(){
 	else if(operadorSecundario!=null && ultimoNumero!=null){
 		numTemp = ultimoNumero;
 		operacionSecundaria();
-		ultimoResultado = numTemp;
+		ultimoResultado = ultimoNumero;
 		resultado.value = ultimoResultado;
 	}
 	limpiarVariables();
